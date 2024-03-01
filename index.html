@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CS MARKET</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Descuentos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Carrito</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Nuevos</a></li>
+                      <li><a class="dropdown-item" href="#">Semi-nuevos</a></li>
+                      <li><a class="dropdown-item" href="#">Nucaso</a></li>
+                    </ul>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.mastermind.ac/courses/aprende-a-programar-con-python.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/T_j60n1zgu0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAIkz8m_V2a8I9KiO-ZocSvpi9ZOQ" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQDxUPDw8PEBAPDw8PDw8PDw8PDw8PFRIWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0dHx0tLS0tLS0tLS0tLS0tLS0tKystKy0tLS0tLS0rLS0tLS0tLS0rLS0tLS0rLS0tLS0tK//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADoQAAICAQIDBQUGBQMFAAAAAAABAhEDBCEFEjEGE0FRYRQicYGRIzJCUqGxBzPR4fBywfEVYnOCg//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACcRAQEAAgICAgEDBQEAAAAAAAABAhEDMRIhBEFRImFxExQjMoEF/9oADAMBAAIRAxEAPwDyHHEswiQ4yzAxWfGI7lFiiRIAj5RskSyI2gJE0JRK0NaGEVD0Px4rZN7IxnpXAfPHQ0AQAChgAFBQgLGzmkrFk6VsoZsnMxwdB5Le21+FiWNFKTscwJjbCw0EyyNeI+Gbz3K8nYiYtDbVwqMuj38nsTPTLzMiGQuxm2vgTVxZen9SvJUIpvzEbGVKFiAMi2FiCCB1iWNsLAHJgNsAB1hY2xLGBjgWccCPGWsaMjLGItEiQkkAQSkN5hZx3GNDIOQolDq2GE2kL5R0i3L4mk6QzwpjFpkWGhEhHpX9lQnsqLXKHKAVPZEHshboRoNjTE4lUXyrytmcybWZOacn/wBz/sQGuMZZUDkhEiaGFhaJNo4ksNO5fd95+STbJYYH5b+Bp8FwuOWE6fu5FfrF7SRnlnprhx7rKnoZp04tPxjQmLRSk6rfxT2a+J6xl4Tim/fipLpvs6+JPqeBYMitY4xklypqK3S6Jr/Gcn95+ztnwP3eQy0tVdptWl5/An0WPmezfTezsuNdl5rC+WnKHvR23e26Xp6GBHhE8ce9bUKqTjK4ya6L5t+Hka4fIxznbHP42WF/ZQeEO6JxDfbm0rvEI4E7QySHstIXEa4krGse01G0FDxBg2gocAA2gocABJjRaxorYy3jRipLEJDoiNDCtk6jKJMi3GUMjaFaChWgCbSdS+UNJ1NCgXOiBQoqRCyUFDqChgxoiyvYnorZ+gycvNb0OjAfmx1OvW/kbnZjg61eqx4JNxhK5ZJLqoRVuvV1XzLyzmM2WHFc8tRW4XolO3s2t68Te0PDIvw8P+Tt9Vj0sNHmlptNFLTx5oxjBSebla5lKXVJxvfw6mbx3hPsuNZov7LLHvMSf3lFpOn6qzgvPcq9O/F/pzX253LoIRkns3XyNPheHGnzSVu20vC+tmJo7yytvby8Dp+GcNcmopW3/iI5MrPW2nDxy+2gsvN4vy29Ta0eGKW7v0KMuHRxX3s3BJO2krXwMLj3EMOKWN41q+bI28Tc2266tQrfqvLqZY4eTXLPx6dRq9LW8W7fVenwOF/iDicVhne15IP4v3l+nMdFw5a95IOM1l0+Tlf2tLu43ct6u6+Jz/8AEniayQjhWCcFDUN480tlmjCE4T5I+MeZr3vh5mnBhrkmvbD5PJvisvquMWUVTKqY+LPT08faypAxkRzEZshjHsYyomkEFYDIgCgAIAoAE2JFvGiviLeMwWkigaHpCSQBVyIY0TTiRMojGD6CsH0GEukNGjP0nU0RVeJEhRUFEVQoShwUMzWirqC20VtShwmQsV54p/iUo/OtjoOx0u71kb2UubG36SVGNgX20P8AV+6aNHFKpKSdSTtfFOzDnt6/MdvxJPWX4r0LjuL2fhHK4NuMoOcIylDvHzVJSa35ae5mdpMubPo9PnzSVZcMZwhFVGKklSSOo7P6mGt0320W2/dliv06r97Oa7Wwhp+40WNy5MUJSSlLmcFPJKSV+nh6UceN6ju5MvdY3A9HXU6rhmZ45bei+ZiaPZbem9+H+M2dBDmY+Tscf+ul3V5nmdZI2ulr3ZV8UZ3G8DzTxNynJafmWL7vPGLStc3XqkdJPAuRbb15FPHi3uVJJXJ+SXiR5XH1FTDG+/wbwqGRYuRyaXK4+F0zxTieXI8rhllOTwuWGKm75IwnJcq9Lv6nrcOKvLk5cMJyins6pHn38QuEzwaj2hxahqW3v+HKl7y+fX6nR8O6ysv25Pn4fomU+nOIfErLKPWY9PTx9rcRxVWcX2gWj8osMayHvxFmDRbTUIKtwAQAKIIxQALQ9jSziRbxoqYmW8TMNq0sRQkkEWOYbFirkK0y7kiRPEVKlWQ5kjxjZIYSaTqaJn6PqaQVpiaKAqRCgAoUAIVdQti20VtQthhmYl9tD/yQ/dFqT97bzZHo4/bJ+EFKb+S2/VouaPDzST82Y8t/V/x1/Hl8P5rqMGWeHSueOTjKMbUoummcWtdky5nKc3Ocm25Tbk2/VnoOPGngcPBwa/Q8yjF49Q4y2ak0rXrsZcMl22+RlZp3/BcfNS2+6r3fodPoMKh+hzPCNZBJXNLa9vCSS/ubWHX11fS914U+plnPbbDL06bG1ymZxCF45x6c8XG15NUS8Oy826dp0UOOz6Oc3jxvooLmlJq7MrNtMb9dsXWcVhhg4x1OfTwxQcn7PCDnPJHdpuS3umkum25xXbftrPiXJjWPu8OF8y5mpZcmTl5eaTWy2vZeZ0/HIaPHocuWp86g44+Z1OWaacYLldbW+Z7dIs8tSPR+LhLPL8PM/wDQzymXhTkPQ1DkdjzSigAACoAA1mD2HWRRFsnSpUlgpDLGho9peYLIxRaG1/Ei5jRWxIt40czVNGI5oSKH0BVBJBykjiJRaEE0VshcyIq5EOUF0a3NMzdJ1NNIa8eiUCQ4WKJqiUHKScocoGjoq6xqMW3skrZfcTG49lXI8a+8483wSaHC0g4XqOe6VKTUV50b8IqLXh5GT2X0Lmm/KOxc4rqXHKl5Ujn5fedkd3DdcctdvoMXNCl5f7HPcc4HGT2St/i/odR2Y97GvVbGi9Hb5WrW/VL6nLMrjXTlj5R5ThlLDPke0knTbpS/tsjqOG5E4Jc1ytW/zN+BpdqeyqnFPG+Wf4K8POjhNQ9VpI1mxThHmSjkUfccvC/J0v3Np/k67Yb/AKd99PWeDaZxV+C6IscWpY3KcLUd0l1v0OC4P20cccU1vCLbro6XmX8najvm1J8uKEXOWRP7qjvfx2v5GV4spW05se45z+IXHcU8S0kIJ5ZShPNJpXhUb5YKvxO1b8Eq8duDSBu23bbbbbfV+r9RUevx4eGOnic/LeXO5U5DkIhyLZAUEKIyCoKBIQTRQtE+DTOS2JfYpEWtJjVShtF72KQLh8g8leNUqF5S8tBIX/p8heUHhUmJFvEiriLmJHOpNFD6EiiSgKoZRG0SyQlFbSgyIqZS9kRTyoqAmj6mojN0i3NVIpeJtD4oKI82rx4/vzjH0vf6EqT8oKJkantFjSaxxlN+Dfux/qYeq4nlyfem0n+GPux/QuYWoucjqNfxDHhT5pJyraCdyb/2OO1GplObnJ7y+leQxjWaY4SMss7XofYrLiekyStLJB1KPik1s16PczNTp5ZJudbc23wOZ4fq5Yp80X1VSXhKPkzvsWuwy0veQa6U4v70ZeKZx8vHcMvKfb0ODlnJjMb9Ox7F4vcryR1kdGup5fwLtri0ml5pJynbSivFmBxz+JOt1FxxS7iD/J95r4nPODPKt+Tmxxk9vWO0HaDSaCDnnyx5/DHGpZZeiijxzi/ajJxLVxlNcmnxubx4E7SSjJty/NJpV6HMZ8kskrnJyk3vKTtsn0vutNfD67P9zs4vj44e+64eX5GWXr6RTlKDcU7XS10kuqf0DLqpSjydI3fKrpvzfmGSNSaEpPr9Tokjm8qiSHJEndeT+oTxtVapPo/BlbTo1DkgQoUFoWgFEBQUKOQqqR0XBcVwNJaf0K/BI+4a8InNlfbuwk0oS0/oK8BpPGQVuTtWoprAOWnZdUCVQ9BbLTjsKLuJFTEi5jQ3MngPGxHoAY0JRI0ICEGVbFDPI0c/QxdZPcvGbFTYtTCG83X6tjdR2h8McPnP+iMrW+HwKxvjjKWWVnpoaji+WarmUU/yKv16lBvxe782AF6kZ22gAoUAbQ1jxGhkTGSw1co9Oj6rfdEcPH4CNis2ctnSdPn6Pp4PwJlhUVb2KMW07umSyyuSV3UfoRcGuPLJ3CSi+VzS2tRXxaf9GO0s6i76KcH8rt/sEVf7JegZIcu35qf0/wCStM9/afUJSfNHoRThW42LroOc2x6LZESxm1sns+q8GRocKg6l5IORev77iCiMubC4Ve6kuaMvBro/mmRmtqMPNoI5K/lavu78o5cTl++IyQlOzRR0Rg6IqqOy4DH3DXhAodnIXjNlYzly7duPSGSIGi64kPJ5IlSOMSRRHxgKBOKxFzGVMRbxg59J4oeNiPQy0RiJDmFDShzLYwdZ1OgzLYwOJPl3fy9WaYJrN1VN7Stq1TVbIgQXbsckdE9M8ru7IKIOGkgoABkQrQjFGRv9AhBsWJNCkqsAj7oJR2JbHKpbL/EIDFBLeXyXkQal3L6UW1GPjuVtU1zJJKkvDxYGaKAARUOSGoegpwqQog+K6f6kI3ScJ0ay6HU4nKpynpXiTdJzXetfWlH/ANjlPr8Hs0avN+HmcU2rrrt/jJe1+GHtHtGCPLg1kXmhH8mRPlzQ+Kn73wmiJ6v8rvufwxUx0WR2CkVUyvRezH8v5I2WYPZef2XyNeeQ5cp7d2N9HyGpEDysHMWj8k9hZXcxveMJBtymJFrGV8aLWNEM9JojkNSHRKTSipC0Khs0WU5PjObmytLpHb5+J1OvzLHBzfgunm/A4mcm22+rbb+JtxT3tOXRoqYsUPpG7I1ghWAEAABmGIhRGBAsY7orskg3VIRpW10fVqthsI8t+qHQjQ50BE2KuV3ImcitN+8ASgNTFEZ8SRISELJOWgEIok8FTjfq/ov7iY4ErStfD/cVMqavrfqaEo99oMuKvf0s46zH5926x54/Cnjn/wDMz1J+C2NPs1njHV4u8SeOc+5yxfSWLIu7mn6csmTl0uduWBE/EdJ3GfLgbbeDNlw2+r5JuNv6EBaHf9lv5XyNeRkdlv5XyNiRy5duzHpE0ArARmtCUPEHA5zHjLMMYAckroyxiTkFUQAuVncYc0QzkKBrGGUY/aHVru+7TTcnvT3ikc4hAOrCajDO+ztgsALZn1sI0AABQUADBaEaABgwdilTFACTZWVZZGAChmOZNo9DmzP7HDly117vHKdfRABHJn447bcHHOTPxrouD9iNZqIuUcccfKnUcrcZSa/ClXUwYY3dU002mns0/FMQDn4ObLO3bf5fx8eLXiuSkoxrxI8asAOlxrEZeQuR0+n4V+7AAP6ROUn6IfHNVbbrdV1AAHSftfn7/U+1cqj3+HBObj+LIoKE5NeDcoy+aZioADHo8u3fdlv5XyNmQAc17dWPSNgACMjBIAHA/9k=" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+      <br>
+    <div class="container">
+        <div class="row">
+            <div class="card" style="width: 18rem;">
+                <img src="https://join-banana.com/cdn/shop/products/fee_786_587_png_07c4bd63-362f-41fb-9307-508bf348f617.png?v=1689769484" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Iphone 13 con RSIM</h5>
+                  <p class="card-text">500 $</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </div>
+
+        div class="row">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://photos.encuentra24.com/t_or_fh_l/f_auto/v1/ni/24/71/35/01/24713501_b4c9a4" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Moto Honda</h5>
+                  <p class="card-text">1,500 $</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </div>
+
+        div class="row">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://cdn.vox-cdn.com/thumbor/UwjvQPcye50eVDsDKAw8sxXJGW8=/0x0:2550x1700/2550x1700/filters:focal(1275x850:1276x851)/cdn.vox-cdn.com/uploads/chorus_asset/file/24748328/236706_Mac_Pro_AKrales_0094.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mac Pro</h5>
+                  <p class="card-text">7,000 $</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
